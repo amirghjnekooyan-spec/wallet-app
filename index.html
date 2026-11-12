@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کیف پول من</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet"> 
+</head>
+<body>
+
+    <div class="app-container">
+        <!-- هدر بالا -->
+        <header class="header">
+            <div class="logo">
+                <span>کیف پول</span>
+                <div class="logo-icon">💜</div>
+            </div>
+            <div class="header-icons">
+                <button class="icon-btn">🔔</button>
+                <button class="icon-btn">💳</button>
+            </div>
+        </header>
+
+        <!-- بخش سلام و ثبت هزینه -->
+        <section class="greeting-section">
+            <div class="greeting-text">
+                <h1>سلام امیرحسین</h1>
+                <p>وضعیت پول هات رو خیلی ساده ببین</p>
+            </div>
+            <button class="add-expense-btn">+ ثبت هزینه</button>
+        </section>
+
+        <!-- کارت موجودی -->
+        <section class="balance-card">
+            <p class="balance-label">موجودی فعلی</p>
+            <h2 class="balance-amount">۴۸,۶۵۰,۰۰۰ <span>تومان</span></h2>
+
+            <div class="cards-row">
+                <div class="mini-card">
+                    <span class="mini-card-label">کارت اصلی</span>
+                    <span class="mini-card-amount">۴۸,۶۵۰,۰۰۰ تومان</span>
+                </div>
+                <div class="mini-card">
+                    <span class="mini-card-label">کارت دوم</span>
+                    <span class="mini-card-amount">۱۲,۳۵۰,۰۰۰ تومان</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- لیست هزینه‌های اخیر -->
+        <section class="expenses-section">
+            <div class="expenses-header">
+                <h3>هزینه‌های اخیر</h3>
+                <span class="date-label">آخرین بروزرسانی: امروز</span>
+            </div>
+
+            <ul class="expenses-list">
+                <!-- آیتم اول -->
+                <li class="expense-item">
+                    <div class="expense-info">
+                        <div class="expense-icon">🛒</div>
+                        <div>
+                            <p class="expense-title">خرید سوپر مارکت</p>
+                            <p class="expense-date">امروز - ۱۴:۳۰</p>
+                        </div>
+                    </div>
+                    <span class="expense-amount">- ۱,۲۷۰,۰۰۰</span>
+                </li>
+
+                <!-- آیتم دوم -->
+                <li class="expense-item">
+                    <div class="expense-info">
+                        <div class="expense-icon">🚗</div>
+                        <div>
+                            <p class="expense-title">اسنپ</p>
+                            <p class="expense-date">امروز - ۱۲:۱۵</p>
+                        </div>
+                    </div>
+                    <span class="expense-amount">- ۱۸۵,۰۰۰</span>
+                </li>
+
+                <!-- آیتم سوم -->
+                <li class="expense-item">
+                    <div class="expense-info">
+                        <div class="expense-icon">☕</div>
+                        <div>
+                            <p class="expense-title">کافه</p>
+                            <p class="expense-date">دیروز - ۱۸:۰۰</p>
+                        </div>
+                    </div>
+                    <span class="expense-amount">- ۸۵۰,۰۰۰</span>
+                </li>
+
+                <!-- آیتم چهارم -->
+                <li class="expense-item">
+                    <div class="expense-info">
+                        <div class="expense-icon">🏠</div>
+                        <div>
+                            <p class="expense-title">اجاره خانه</p>
+                            <p class="expense-date">۱ آبان - ۱۰:۰۰</p>
+                        </div>
+                    </div>
+                    <span class="expense-amount">- ۱۷,۰۰۰,۰۰۰</span>
+                </li>
+            </ul>
+        </section>
+    </div>
+    
+</body>
+</html>
